@@ -1,0 +1,168 @@
+.left-col-wrapper {
+    height: 100vh;
+    width: 70%;
+    float: left;
+}
+
+.right-col-wrapper {
+    height: 100vh;
+    width: 30%;
+    float: right;
+}
+
+.main-div {
+    display: flex;
+    flex-direction: column;
+    padding-left: .5rem;
+    color: white;
+    height: 100vh;
+}
+
+.sub-div {
+    width: 100%;
+    height: 20%;
+    box-sizing: border-box;
+}
+
+@media (max-width: 767px) {
+
+    .left-col-wrapper,
+    .right-col-wrapper {
+        width: 100%;
+        float: none;
+    }
+
+    .sub-div {
+        width: 100%;
+    }
+}
+
+
+h3 {
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.about {
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: column;
+    height: 80%;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.aboutText {
+    background: radial-gradient(circle farthest-corner at center center, #2196f3 0, #e91e63 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 700;
+    font-size: 44px !important;
+}
+
+ul {
+    list-style: none;
+}
+
+
+.rotate-left {
+    transform: rotate(-90deg);
+    margin-bottom: .5rem;
+}
+
+.socialMedia {
+    
+    font-size: 30px;
+    justify-self: center;
+}
+.socialIcon{
+    color: #616161;
+    text-decoration: none;
+}
+
+.appDownload {
+
+    justify-content: center;
+    font-size: 14px;
+    padding-top: 2rem;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.appstore {
+    width: 180px;
+    aspect-ratio: auto;
+}
+
+.playstore {
+    width: 175px;
+    margin-left: 1rem;
+    aspect-ratio: auto;
+}
+
+.docLinks {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    justify-content: center;
+    font-size: 14px;
+    padding-top: 2rem;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.link,
+.link:hover {
+    text-decoration: none;
+    color: white;
+    margin: 1rem;
+}
+
+.right-main{
+    display: flex;
+    flex-direction: column;
+    padding-left: .5rem;
+    color: white;
+    height: 100vh;
+
+}
+
+.image {
+
+    padding-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80%;
+    width: 100%;
+}
+
+.demo {
+    width: 229px;
+    max-width: 100%;
+    height: auto;
+}
+
+.black{
+    height: 20%;
+    width: 100%;
+    box-sizing: border-box;
+    text-align: start;
+    padding-right: 1rem;
+}
+
+#black{
+    font-weight: 700;
+    margin-top: .5rem;
+    color: white;
+    transform: rotate(-180deg);
+}

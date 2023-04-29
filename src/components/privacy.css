@@ -1,0 +1,22 @@
+.main {
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.sub-div {
+
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+}
+
+p {
+    font-size: small;
+    text-align: justify;
+    text-justify: inter-word;
+}
